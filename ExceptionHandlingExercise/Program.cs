@@ -22,7 +22,7 @@ namespace ExceptionHandlingExercise
                 //TODO START HERE:
             var arr = new char[] { '1', '2', '3', '4', '5', '6', 'a', 'b', 'c' };
             List<int> numbers = new List<int>();
-            string str = "";
+            string str = null;
             
             // Make a foreach loop to iterate through your character array
 
@@ -42,7 +42,7 @@ namespace ExceptionHandlingExercise
                    // Console.WriteLine(ex);  //useful but makes console results messy.
                }
             }
-            Console.WriteLine("\n \n")
+            Console.WriteLine("\n \n");
             
 
                 // Now create a try catch
